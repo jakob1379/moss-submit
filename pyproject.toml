@@ -1,0 +1,20 @@
+[project]
+name = "moss-submit"
+version = "0.1.0"
+description = "Modern Typer CLI to submit jobs to MOSS (Stanford)"
+readme = "README.md"
+authors = [
+    { name = "Jakob Stender Guldberg", email = "jakob1379gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.11.9",
+    "typer>=0.17.4",
+]
+
+[project.scripts]
+moss = "moss_submit.moss_cli:app"
+
+[build-system]
+requires = ["uv_build>=0.8.14,<0.9.0"]
+build-backend = "uv_build"
