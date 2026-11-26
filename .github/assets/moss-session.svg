@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 384" width="960" height="384" role="img" aria-labelledby="t d">
+<title id="t">A moss submit session</title>
+<desc id="d">Three local files, skeleton.py as base code plus alice.py and bob.py, are uploaded line by line over the MOSS protocol to moss.stanford.edu port 7690. The server replies with a report URL, and the report pairs alice.py with bob.py and highlights their matching code.</desc>
+<style>
+:root{--bg:#F3F5F9;--panel:#FFFFFF;--ink:#1D2433;--muted:#667089;--line:#D3D9E4;--bar:#C9D0DC;--accent:#2F5BD3;--m1:#E3A21A;--m2:#17A08C}
+@media (prefers-color-scheme:dark){:root{--bg:#121826;--panel:#1A2233;--ink:#E5E9F1;--muted:#8E98AE;--line:#2D374B;--bar:#3A4559;--accent:#86A6FF;--m1:#F2B937;--m2:#3CC9B2}}
+.bg{fill:var(--bg)}
+.panel{fill:var(--panel);stroke:var(--line);stroke-width:1.5}
+.base{stroke-dasharray:5 4}
+.bar{fill:var(--bar)}
+.guide{fill:none;stroke:var(--line);stroke-width:1.5;stroke-dasharray:2 4;stroke-linecap:round}
+.h{font:600 13px system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;fill:var(--muted)}
+.s{font:500 12px system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;fill:var(--ink)}
+.sm{font:500 11px system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;fill:var(--muted)}
+.m{font:12.5px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:var(--ink)}
+.fn{font:600 12.5px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:var(--ink)}
+.reply{fill:var(--accent)}
+.m1{fill:var(--m1)}
+.m2{fill:var(--m2)}
+.pk{fill:var(--accent);opacity:0}
+.a{animation-duration:12s;animation-iteration-count:infinite;animation-timing-function:ease-out}
+.l-head{animation-name:l-head}.l-lang{animation-name:l-lang}.l-f0{animation-name:l-f0}.l-f1{animation-name:l-f1}.l-f2{animation-name:l-f2}.l-q{animation-name:l-q}.l-url{animation-name:l-url}.l-end{animation-name:l-end}.l-card{animation-name:l-card}
+.pk0{animation-name:pk0;animation-timing-function:linear}.pk1{animation-name:pk1;animation-timing-function:linear}.pk2{animation-name:pk2;animation-timing-function:linear}.pkr{animation-name:pkr;animation-timing-function:linear}
+.f1{animation-name:f1}.f2{animation-name:f2}
+@keyframes l-head{0%,3.3%{opacity:0;transform:translateX(-6px)}6.7%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes l-lang{0%,10%{opacity:0;transform:translateX(-6px)}12.5%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes l-f0{0%,20%{opacity:0;transform:translateX(-6px)}22.5%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes l-f1{0%,30%{opacity:0;transform:translateX(-6px)}32.5%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes l-f2{0%,40%{opacity:0;transform:translateX(-6px)}42.5%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes l-q{0%,46.7%{opacity:0;transform:translateX(-6px)}49.2%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes l-url{0%,56.7%{opacity:0;transform:translateX(-6px)}59.2%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes l-end{0%,64%{opacity:0;transform:translateX(-6px)}66.7%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes l-card{0%,61%{opacity:0;transform:translateX(8px)}64.5%,90%{opacity:1;transform:none}95%,100%{opacity:0}}
+@keyframes f1{0%,65%{fill:var(--bar)}69%,100%{fill:var(--m1)}}
+@keyframes f2{0%,68%{fill:var(--bar)}72%,100%{fill:var(--m2)}}
+@keyframes pk0{0%,15%{opacity:0;transform:none}15.2%{opacity:1;transform:none}16%{transform:translate(26px,0)}19.2%{transform:translate(26px,106px)}20%{opacity:1;transform:translate(48px,106px)}20.4%,100%{opacity:0;transform:translate(48px,106px)}}
+@keyframes pk1{0%,25%{opacity:0;transform:none}25.2%{opacity:1;transform:none}26%{transform:translate(14px,0)}28.6%{transform:translate(14px,34px)}30%{opacity:1;transform:translate(48px,34px)}30.4%,100%{opacity:0;transform:translate(48px,34px)}}
+@keyframes pk2{0%,35%{opacity:0;transform:none}35.2%{opacity:1;transform:none}36%{transform:translate(26px,0)}39%{transform:translate(26px,-38px)}40%{opacity:1;transform:translate(48px,-38px)}40.4%,100%{opacity:0;transform:translate(48px,-38px)}}
+@keyframes pkr{0%,59.2%{opacity:0;transform:none}59.4%{opacity:1;transform:none}61%{opacity:1;transform:translate(32px,0)}61.4%,100%{opacity:0;transform:translate(32px,0)}}
+@media (prefers-reduced-motion:reduce){.a{animation:none!important}.pk{display:none}}
+</style>
+<rect class="bg" width="960" height="384" rx="16"/>
+
+<text class="h" x="40" y="62">Files</text>
+<text class="h" x="284" y="62">Session with moss.stanford.edu:7690</text>
+<text class="h" x="676" y="62">Report</text>
+
+<path class="guide" d="M236 124H262V230H284"/>
+<path class="guide" d="M236 216H250V250H284"/>
+<path class="guide" d="M236 308H262V270H284"/>
+<path class="guide" d="M644 310H676"/>
+
+<g>
+<rect class="panel base" x="40" y="84" width="196" height="80" rx="10"/>
+<text class="fn" x="56" y="110">skeleton.py</text>
+<text class="sm" x="220" y="110" text-anchor="end">base</text>
+<rect class="bar" x="56" y="124" width="120" height="6" rx="3"/>
+<rect class="bar" x="56" y="136" width="84" height="6" rx="3"/>
+<rect class="bar" x="56" y="148" width="140" height="6" rx="3"/>
+</g>
+<g>
+<rect class="panel" x="40" y="176" width="196" height="80" rx="10"/>
+<text class="fn" x="56" y="202">alice.py</text>
+<rect class="bar" x="56" y="216" width="132" height="6" rx="3"/>
+<rect class="bar" x="56" y="228" width="96" height="6" rx="3"/>
+<rect class="bar" x="56" y="240" width="150" height="6" rx="3"/>
+</g>
+<g>
+<rect class="panel" x="40" y="268" width="196" height="80" rx="10"/>
+<text class="fn" x="56" y="294">bob.py</text>
+<rect class="bar" x="56" y="308" width="104" height="6" rx="3"/>
+<rect class="bar" x="56" y="320" width="146" height="6" rx="3"/>
+<rect class="bar" x="56" y="332" width="78" height="6" rx="3"/>
+</g>
+
+<rect class="panel" x="284" y="84" width="360" height="264" rx="10"/>
+<g class="a l-head">
+<text class="m" x="304" y="114">moss 123456</text>
+<text class="m" x="304" y="134">directory 0</text>
+<text class="m" x="304" y="154">X 0</text>
+<text class="m" x="304" y="174">maxmatches 10</text>
+<text class="m" x="304" y="194">show 250</text>
+</g>
+<text class="m a l-lang" x="304" y="214">language python</text>
+<text class="m a l-f0" x="304" y="234">file 0 python 418 skeleton.py</text>
+<text class="m a l-f1" x="304" y="254">file 1 python 1302 alice.py</text>
+<text class="m a l-f2" x="304" y="274">file 2 python 1275 bob.py</text>
+<text class="m a l-q" x="304" y="294">query 0</text>
+<g class="a l-url">
+<path class="reply" d="M311 306l-7 4 7 4z"/>
+<text class="m reply" x="318" y="314">http://moss.stanford.edu/results/…</text>
+</g>
+<text class="m a l-end" x="304" y="334">end</text>
+
+<rect class="panel" x="676" y="84" width="244" height="264" rx="10"/>
+<g class="a l-card">
+<text class="sm" x="692" y="110">File 1</text>
+<text class="sm" x="794" y="110">File 2</text>
+<text class="sm" x="904" y="110" text-anchor="end">Lines</text>
+<text class="s" x="692" y="134">alice.py (41%)</text>
+<text class="s" x="794" y="134">bob.py (38%)</text>
+<text class="s" x="904" y="134" text-anchor="end">22</text>
+<rect class="bar" x="692" y="148" width="212" height="1"/>
+<text class="fn" x="692" y="174">alice.py</text>
+<text class="fn" x="794" y="174">bob.py</text>
+<g>
+<rect class="bar" x="692" y="190" width="70" height="5" rx="2.5"/>
+<rect class="bar" x="692" y="201" width="52" height="5" rx="2.5"/>
+<rect class="bar a f1 m1" x="692" y="212" width="84" height="5" rx="2.5"/>
+<rect class="bar a f1 m1" x="692" y="223" width="62" height="5" rx="2.5"/>
+<rect class="bar a f1 m1" x="692" y="234" width="76" height="5" rx="2.5"/>
+<rect class="bar" x="692" y="245" width="44" height="5" rx="2.5"/>
+<rect class="bar" x="692" y="256" width="68" height="5" rx="2.5"/>
+<rect class="bar a f2 m2" x="692" y="267" width="58" height="5" rx="2.5"/>
+<rect class="bar a f2 m2" x="692" y="278" width="80" height="5" rx="2.5"/>
+<rect class="bar" x="692" y="289" width="36" height="5" rx="2.5"/>
+<rect class="bar" x="692" y="300" width="64" height="5" rx="2.5"/>
+<rect class="bar" x="692" y="311" width="50" height="5" rx="2.5"/>
+<rect class="bar" x="692" y="322" width="72" height="5" rx="2.5"/>
+</g>
+<g>
+<rect class="bar a f2 m2" x="794" y="190" width="60" height="5" rx="2.5"/>
+<rect class="bar a f2 m2" x="794" y="201" width="78" height="5" rx="2.5"/>
+<rect class="bar" x="794" y="212" width="46" height="5" rx="2.5"/>
+<rect class="bar" x="794" y="223" width="70" height="5" rx="2.5"/>
+<rect class="bar" x="794" y="234" width="54" height="5" rx="2.5"/>
+<rect class="bar" x="794" y="245" width="88" height="5" rx="2.5"/>
+<rect class="bar a f1 m1" x="794" y="256" width="82" height="5" rx="2.5"/>
+<rect class="bar a f1 m1" x="794" y="267" width="62" height="5" rx="2.5"/>
+<rect class="bar a f1 m1" x="794" y="278" width="74" height="5" rx="2.5"/>
+<rect class="bar" x="794" y="289" width="40" height="5" rx="2.5"/>
+<rect class="bar" x="794" y="300" width="66" height="5" rx="2.5"/>
+<rect class="bar" x="794" y="311" width="52" height="5" rx="2.5"/>
+<rect class="bar" x="794" y="322" width="30" height="5" rx="2.5"/>
+</g>
+</g>
+
+<circle class="pk a pk0" cx="236" cy="124" r="4.5"/>
+<circle class="pk a pk1" cx="236" cy="216" r="4.5"/>
+<circle class="pk a pk2" cx="236" cy="308" r="4.5"/>
+<circle class="pk a pkr" cx="644" cy="310" r="4.5"/>
+</svg>
